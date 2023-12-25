@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "uav-py3-ver2"
+version = "0.1.0"
+description = ""
+authors = ["Viacheslav Prokhorovych <p.slava.ih@gmail.com>"]
+readme = "README.md"
+packages = [{include = "uav_py3_ver2"}]
+
+[tool.poetry.dependencies]
+python = "3.6.8"
+dronekit = "^2.9.2"
+dronekit-sitl = "^3.3.0"
+pymavlink = "2.4.8"
+geopy = ">=2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
